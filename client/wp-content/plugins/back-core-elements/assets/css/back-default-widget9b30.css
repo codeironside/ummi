@@ -1,0 +1,24 @@
+.back-course-counter .elementor-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+}
+
+.back-course-counter .elementor-widget-container {
+    -webkit-animation: hero3-image 3s linear infinite alternate;
+    -moz-animation: hero3-image 3s linear infinite alternate;
+    -o-animation: hero3-image 3s linear infinite alternate;
+    animation: hero3-image 3s linear infinite alternate;
+}
+
+@keyframes hero3-image {
+    0% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }

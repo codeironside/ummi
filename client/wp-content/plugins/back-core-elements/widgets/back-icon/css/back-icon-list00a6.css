@@ -1,0 +1,16 @@
+.elementor-icon-list-items,ul {
+    list-style:none;
+    margin-left: 0!important;
+    padding-left: 0!important;
+    margin-bottom: 0px!important;
+}
+.elementor-icon-list-item{
+    display: flex;
+    align-items: center;
+}
+
+.elementor-icon-list-icon,.elementor-icon-list-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

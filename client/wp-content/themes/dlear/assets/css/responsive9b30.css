@@ -1,0 +1,202 @@
+@charset "utf-8";
+/**
+*
+* -----------------------------------------------------------------------------
+*
+* Template : Dlear - Education, University & School WordPress Theme
+* Author : backtheme
+* Author URI : https://backtheme.tech/
+*
+* ----------------------------------------------------------------------------
+*
+**/
+
+@media only screen and (min-width: 1300px) {
+	.container{
+		max-width: 1200px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1360px)  {
+	.back-horizental-menu ul li > a {
+	    font-size: 13px;
+	    padding: 25px 8px;
+  	}
+  	.back-horizental-menu ul li ul.sub-menu li a {
+  	  	font-size: 13px;
+  	}
+}
+
+/* Medium Layout: 991px. */
+
+@media only screen and (max-width: 991px) {
+    .dynamic-sidebar {
+     	padding: 60px 0 20px 0px;
+    }
+    .row.enable-left-sidebar .dynamic-sidebar {
+		padding: 0px 0px 20px 0px;
+    }
+    footer#colophon .back-horizental-menu  .back-nav-menu-elementor{
+    	justify-content: center;
+    }
+    footer#colophon .back-nav-menu-elementor li {
+      margin: 0 10px;
+    }
+    .back-single-meta-change {
+    	flex-wrap: wrap;
+    	gap: 15px;
+    }
+    .ps-navigation ul{
+    	padding-left: 0;
+    }
+    #back_mobile_menu_here ul ul li a{
+    	font-size: 14px;
+    }
+    .back-elementor-cource-kids .back-elementor-cource-kids-wrap .back-course-image {
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-right: 0;
+		margin-bottom: 25px;
+	}
+	.back-elementor-cource-kids .back-elementor-cource-kids-wrap{
+		display: block;
+	}
+	.back-elementor-cource-kids .back-elementor-cource-kids-wrap .back-course-content {
+		flex: 0 0 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	.back-elementor-cource-kids .back-elementor-cource-kids-wrap .back-course-content ul{
+		justify-content: center;
+	}
+	header.back-header-area .back-horizental-menu nav{
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.back-elementor-heading .title {
+	  	font-size: 6vw;
+	}
+	.back__course_style_elementor3 .elementor-course-item {
+	  	display: block;
+	  	max-width: 500px;
+	  	margin: 0 auto !important;
+	}
+	.back-event-wrap-all {
+		display: block;
+	}
+	.back-event-elementor-image img {
+	  	border-radius: 0;
+	}
+	.back-event-card {
+	  	display: block;
+	}
+	.back-event-card .back-event-card--date {
+		border-right: 0;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	.back-event-card--btn .back-event-btn{
+		display: block;
+		margin-top: 20px;
+	}
+	.back-event-card .back-event-card--icon {
+		max-width: 100%;
+		padding-right: 0;
+	}
+	.back-event-elementor-style2 .back-event-card-wrap {
+		padding: 40px 30px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.back-event-card--icon-1{
+		padding-right: 0;
+	}
+	.back-post-grid-elementor .back-post-elementor-wrap.back-post-list{
+		display: block;
+	}
+	.back-post-grid-elementor .back-post-elementor-wrap.back-post-list .back-post-content-wrap,
+	.back-post-grid-elementor .back-post-elementor-wrap.back-post-list .back-post-image{
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding: 25px;
+	}
+	.back-post-grid-elementor .back-post-elementor-wrap.back-post-list .back-post-image img{
+		border-radius: 0;
+	}
+	
+}
+
+@media only screen and (max-width: 575px) {
+	.back-elementor-heading .title {
+	  	font-size: 8vw;
+	}
+	.back-single-meta-change{
+		display: block;
+		padding: 30px 35px;
+	}
+	.back-single-meta-change li + li {
+	  border-left: 0;
+	  padding: 14px 0 0;
+	  margin-left: 0;
+	}
+	h1 {
+	  	font-size: 9vw;
+	  	line-height: 1.3em;
+	}
+	h2 {
+		font-size: 7.5vw;
+		line-height: 1.2em;
+	}
+	h3 {
+		font-size: 6vw;
+		line-height: 1.1em;
+	}
+	h4 {
+		font-size: 5.5vw;
+		line-height: 1em;
+	}
+	h5 {
+	  	font-size: 4.5vw;
+	  	line-height: 1.5em;
+	}
+	h6 {
+	  	font-size: 4vw;
+	  	line-height: 1.5em;
+	}
+	.back-elementor-cource-kids .back-elementor-cource-kids-wrap .back-course-content ul li + li {
+		border-left: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.back-elementor-cource-kids .back-elementor-cource-kids-wrap .back-course-content ul{
+		display: block;
+		text-align: center;
+		padding-top: 15px;
+	}
+	nav.back-side-slide-nav {
+	  	padding: 75px 25px 40px 25px;
+	}
+	body.logged-in nav.back-side-slide-nav {
+	    padding: 120px 25px 40px 25px;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	.back-post-grid-elementor .back-post-elementor-wrap .back-post-content-wrap .back-post-meta{
+		display: block;
+	}
+	.back-post-grid-elementor .back-post-elementor-wrap .back-post-content-wrap {
+	  	padding: 32px 30px 30px 30px;
+	}
+	.elementor-content-part.elementor-content-popup-part{
+		display: none;
+	}
+	.back-elementor-course-wrap .elementor-course-card{
+		display: block;
+	}
+}
