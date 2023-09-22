@@ -1,7 +1,8 @@
 const colors = require("colors");
 
 const express = require("express");
-
+const cors = require("cors");
+const corsOption = require("./config/corsOption")
 const connectDB = require("./config/db");
 const dotenv = require("dotenv").config();
 
@@ -20,6 +21,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 // app.use(methodOverride("_method"));
+app.use(cors(corsOption));
 
 
 app.use("/pass", require("./routes/user"));
