@@ -4,6 +4,7 @@ const password = require("../models/password");
 
 const pass = asyncHandler(async (req, res) => {
   const {Passw} = req.body;
+  console.log(Passw)
   if (!req.body) {
     res.status(403).json({
       status: "forbidden",
