@@ -1,4 +1,3 @@
-const colors = require("colors");
 
 const express = require("express");
 
@@ -27,5 +26,5 @@ app.use("/pass", require("./routes/user"));
 app.use(errorHandler);
 
 app.listen(port, () => {
-  console.log(`server running on port ${port},${process.env.NODE_ENV} ......`.magenta.underline);
+  console.log(`server running on port ${port},${process.env.NODE_ENV} ......`);
 });
