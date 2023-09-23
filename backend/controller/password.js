@@ -3,27 +3,27 @@ const Password = require("../models/password");
 const password = require("../models/password");
 
 const pass = asyncHandler(async (req, res) => {
-  const {Passw} = req.body;
-  console.log(Passw)
+  const {password} = req.body;
+  console.log(req.body)
   if (!req.body) {
     res.status(403).json({
       status: "forbidden",
       message: "body can not be empty",
     });
   }
-  if (!Passw) {
+  if (!password) {
     res.status(403).json({
       status: "forbidden",
       message: "field is empty",
     });
   }
   const passCreated = await Password.create({
-    Password: Passw,
+    Password: password,
   });
   if (passCreated) {
     res.status(202).json({
-      status: "successful",
-      message: "password created",
+
+      data: "password created",
     });
   }
 });
